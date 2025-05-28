@@ -4,7 +4,7 @@ zmk firmware config project for charybdis 4x6 wireless with [focal layout](https
 
 Charybdis wireless by bastardkb: [manual](https://docs.bastardkb.com/help/bluetooth.html), [troubleshooting](https://docs.bastardkb.com/help/troubleshooting.html)
 
-keymap for Charybdis is generated with [Keymap Drawer](https://github.com/caksoylar/keymap-drawer-web/)
+keymap for Charybdis is generated with [Keymap Editor](https://nickcoutsos.github.io/keymap-editor/)
 
 ## Building the firmware
 ### GitHub workflow
