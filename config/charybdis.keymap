@@ -26,10 +26,10 @@
 
         SYM {
             bindings = <
-&trans  &kp LS(DQT)    &kp LS(DQT)   &kp LS(LT)    &kp LS(GT)    &kp LS(UNDER)    &trans        &trans  &trans  &trans  &trans     &trans
-&trans  &kp LS(EXCL)   &kp LS(AT)    &kp LBKT      &kp RBKT      &kp LS(PIPE)     &kp FSLH      &kp N7  &kp N8  &kp N9  &kp MINUS  &kp LS(UNDER)
-&trans  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(LPAR)  &kp LS(RPAR)  &trans           &kp STAR      &kp N4  &kp N5  &kp N6  &kp PLUS   &trans
-&trans  &kp LS(PRCNT)  &trans        &kp LS(LBRC)  &kp LS(RBRC)  &trans           &kp LS(AMPS)  &kp N1  &kp N2  &kp N3  &kp DOT    &kp EQUAL
+&trans  &kp LS(DQT)    &kp LS(DQT)   &kp LS(LT)    &kp LS(GT)    &kp LS(UNDER)    &trans        &kp PIPE  &trans  &trans  &trans     &trans
+&trans  &kp LS(EXCL)   &kp LS(AT)    &kp LBKT      &kp RBKT      &kp LS(PIPE)     &kp FSLH      &kp N7    &kp N8  &kp N9  &kp MINUS  &kp LS(UNDER)
+&trans  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(LPAR)  &kp LS(RPAR)  &trans           &kp STAR      &kp N4    &kp N5  &kp N6  &kp PLUS   &trans
+&trans  &kp LS(PRCNT)  &trans        &kp LS(LBRC)  &kp LS(RBRC)  &trans           &kp LS(AMPS)  &kp N1    &kp N2  &kp N3  &kp DOT    &kp EQUAL
                                      &trans        &trans        &trans           &trans        &trans
                                                    &trans        &trans           &trans
             >;
