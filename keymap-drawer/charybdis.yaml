@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - BACKSPACE
+  - BACK SPACE
   - LGUI
   - V
   - L
@@ -21,8 +21,8 @@ layers:
   - K
   - Q
   - F
-  - {t: O, h: ;}
-  - {t: U, h: '['}
+  - {t: O, h: ö}
+  - {t: U, h: ü}
   - J
   - /
   - TAB
@@ -31,14 +31,14 @@ layers:
   - N
   - T
   - B
-  - Z
+  - Y
   - C
-  - {t: A, h: ''''}
+  - {t: A, h: ä}
   - E
   - I
   - SYM
   - LCTRL
-  - Y
+  - Z
   - X
   - M
   - D
@@ -47,7 +47,7 @@ layers:
   - W
   - .
   - ','
-  - Sft+?
+  - Sft+ _
   - SNIP
   - LEFT ALT
   - LEFT SHIFT
@@ -55,52 +55,52 @@ layers:
   - ENTER
   - SPACE
   - SPACE
-  - BACKSPACE
+  - BACK SPACE
   - DEL
   SYM:
   - {t: ▽, type: trans}
-  - Sft+"
-  - Sft+"
-  - Sft+<
-  - Sft+>
-  - Sft+_
-  - {t: ▽, type: trans}
-  - '|'
+  - Sft+ "
+  - Sft+ "
+  - Sft+ <
+  - Sft+ >
+  - Sft+ ?
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+!
-  - Sft+@
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+ +
+  - Sft+ "
   - '['
   - ']'
-  - Sft+|
+  - Sft+ |
   - /
   - '7'
   - '8'
   - '9'
   - '-'
-  - Sft+_
+  - Sft+ ?
   - {t: ▽, type: trans}
-  - Sft+#
-  - Sft+$
-  - Sft+(
-  - Sft+)
+  - Sft+ *
+  - Sft+ ç
+  - Sft+ )
+  - Sft+ =
   - {t: ▽, type: trans}
-  - '*'
+  - (
   - '4'
   - '5'
   - '6'
   - +
   - {type: held}
   - {t: ▽, type: trans}
-  - Sft+%
+  - Sft+ %
   - {t: ▽, type: trans}
-  - Sft+{
-  - Sft+}
+  - Sft+ {
+  - Sft+ !
   - {t: ▽, type: trans}
-  - Sft+&
+  - Sft+ /
   - '1'
   - '2'
   - '3'
@@ -115,7 +115,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NAV:
-  - F12
+  - DEV TOOLS
   - F1
   - F2
   - F3
@@ -141,9 +141,9 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - UP ARROW
-  - LEFT ARROW
+  - LEFT
   - DOWN ARROW
-  - RIGHT ARROW
+  - RIGHT
   - {t: ▽, type: trans}
   - ''
   - '&mkp MB1'
@@ -198,9 +198,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UP ARROW
-  - LEFT ARROW
+  - LEFT
   - DOWN ARROW
-  - RIGHT ARROW
+  - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
@@ -255,9 +255,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UP ARROW
-  - LEFT ARROW
+  - LEFT
   - DOWN ARROW
-  - RIGHT ARROW
+  - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
