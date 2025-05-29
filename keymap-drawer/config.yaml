@@ -74,6 +74,8 @@ parse_config:
   qmk_remove_keycode_prefix:
     - KC_
   qmk_keycode_map:
+    Z: "Y"
+    Y: "Z"
     XXXXXXX: ""
     "NO": ""
     MINUS: "-"
@@ -86,9 +88,9 @@ parse_config:
     RBRC: "]"
     BACKSLASH: \
     BSLS: \
-    NONUS_HASH: "#"
-    NUHS: "#"
-    SEMICOLON: ;
+    NONUS_HASH: "*"
+    NUHS: "*"
+    SEMICOLON: "ö"
     SCLN: ;
     QUOTE: "'"
     QUOT: "'"
@@ -101,31 +103,31 @@ parse_config:
     SLSH: /
     TILDE: "~"
     TILD: "~"
-    EXCLAIM: "!"
-    EXLM: "!"
-    AT: "@"
-    HASH: "#"
-    DOLLAR: $
-    DLR: $
+    EXCLAIM: "+"
+    EXLM: "+"
+    AT: '"'
+    HASH: "*"
+    DOLLAR: "ç"
+    DLR: "ç"
     PERCENT: "%"
     PERC: "%"
-    CIRCUMFLEX: ^
-    CIRC: ^
-    AMPERSAND: "&"
-    AMPR: "&"
-    ASTERISK: "*"
-    ASTR: "*"
-    LEFT_PAREN: (
-    LPRN: (
-    RIGHT_PAREN: )
-    RPRN: )
-    UNDERSCORE: _
-    UNDS: _
+    CIRCUMFLEX: "&"
+    CIRC: "&"
+    AMPERSAND: "/"
+    AMPR: "/"
+    ASTERISK: "("
+    ASTR: "("
+    LEFT_PAREN: )
+    LPRN: )
+    RIGHT_PAREN: =
+    RPRN: =
+    UNDERSCORE: "?"
+    UNDS: "?"
     PLUS: +
     LEFT_CURLY_BRACE: "{"
     LCBR: "{"
-    RIGHT_CURLY_BRACE: "}"
-    RCBR: "}"
+    RIGHT_CURLY_BRACE: "!"
+    RCBR: "!"
     PIPE: "|"
     COLON: ":"
     COLN: ":"
@@ -138,50 +140,52 @@ parse_config:
     RIGHT_ANGLE_BRACKET: ">"
     RABK: ">"
     GT: ">"
-    QUESTION: "?"
-    QUES: "?"
+    QUESTION:  "_"
+    QUES:  "_"
   zmk_remove_keycode_prefix: []
   zmk_keycode_map:
-    EXCLAMATION: "!"
-    EXCL: "!"
-    AT_SIGN: "@"
-    AT: "@"
-    HASH: "#"
-    POUND: "#"
-    DOLLAR: $
-    DLLR: $
+    Z: "Y"
+    Y: "Z"
+    EXCLAMATION: "+"
+    EXCL: "+"
+    AT_SIGN: '"'
+    AT: '"'
+    HASH: "*"
+    POUND: "*"
+    DOLLAR: "ç"
+    DLLR: "ç"
     PERCENT: "%"
     PRCNT: "%"
-    CARET: ^
-    AMPERSAND: "&"
-    AMPS: "&"
-    ASTERISK: "*"
-    ASTRK: "*"
-    STAR: "*"
-    LEFT_PARENTHESIS: (
-    LPAR: (
-    RIGHT_PARENTHESIS: )
-    RPAR: )
+    CARET: "&"
+    AMPERSAND: "/"
+    AMPS: "/"
+    ASTERISK: "("
+    ASTRK: "("
+    STAR: "("
+    LEFT_PARENTHESIS: )
+    LPAR: )
+    RIGHT_PARENTHESIS: =
+    RPAR: =
     EQUAL: "="
     PLUS: +
     MINUS: "-"
-    UNDERSCORE: _
-    UNDER: _
+    UNDERSCORE: "?"
+    UNDER: "?"
     SLASH: /
     FSLH: /
-    QUESTION: "?"
-    QMARK: "?"
+    QUESTION:  "_"
+    QMARK:  "_"
     BACKSLASH: \
     BSLH: \
     PIPE: "|"
     NON_US_BACKSLASH: \
     PIPE2: "|"
     NON_US_BSLH: "|"
-    SEMICOLON: ;
-    SEMI: ;
+    SEMICOLON: "ö"
+    SEMI: "ö"
     COLON: ":"
-    SINGLE_QUOTE: "'"
-    SQT: "'"
+    SINGLE_QUOTE: "ä"
+    SQT: "ä"
     APOSTROPHE: "'"
     APOS: "'"
     DOUBLE_QUOTES: '"'
@@ -193,18 +197,18 @@ parse_config:
     DOT: .
     GREATER_THAN: ">"
     GT: ">"
-    LEFT_BRACKET: "["
+    LEFT_BRACKET: "ü"
     LBKT: "["
-    LEFT_BRACE: "{"
+    LEFT_BRACE: "ü"
     LBRC: "{"
     RIGHT_BRACKET: "]"
     RBKT: "]"
-    RIGHT_BRACE: "}"
-    RBRC: "}"
+    RIGHT_BRACE: "!"
+    RBRC: "!"
     GRAVE: "`"
     TILDE: "~"
-    NON_US_HASH: "#"
-    NUHS: "#"
+    NON_US_HASH: "*"
+    NUHS: "*"
     TILDE2: "~"
     LA(LC(T)): "SHELL"
     C_AC_SEARCH: "SEARCH"
