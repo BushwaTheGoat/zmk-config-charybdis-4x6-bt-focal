@@ -21,3 +21,8 @@ To flash each side of the keyboard, follow the steps below:
 - It will take a few seconds, then it will unmount and restart itself.
 - Do the same with the left half, and copy the charybdis_left-nice_nano_v2-zmk.uf2 file.
 - Both halves of the keyboard should now be flashed with the firmware.
+
+
+## Keymaps & Layers
+
+![keymap images](keymap-drawer/charybdis.svg)
