@@ -20,3 +20,5 @@ jobs:
     with:
       artifact_name: "keymap_layouts"
       parse_args: "charybdis: '-b keymap-drawer/charybdis.yaml'"
+      config_path: "keymap-drawer/config.yaml"
+      
