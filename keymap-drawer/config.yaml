@@ -119,8 +119,8 @@ parse_config:
     ASTR: "("
     LEFT_PAREN: )
     LPRN: )
-    RIGHT_PAREN: =
-    RPRN: =
+    RIGHT_PAREN: "="
+    RPRN: "="
     UNDERSCORE: "?"
     UNDS: "?"
     PLUS: +
@@ -164,8 +164,8 @@ parse_config:
     STAR: "("
     LEFT_PARENTHESIS: )
     LPAR: )
-    RIGHT_PARENTHESIS: =
-    RPAR: =
+    RIGHT_PARENTHESIS: "="
+    RPAR: "="
     EQUAL: "="
     PLUS: +
     MINUS: "-"
