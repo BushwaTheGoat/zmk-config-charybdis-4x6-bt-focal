@@ -65,7 +65,7 @@ layers:
   - Sft+>
   - Sft+_
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
