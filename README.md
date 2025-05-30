@@ -1,6 +1,6 @@
 # zmk-config-charybdis-4x6-bt-focal
 
-zmk firmware config project for charybdis 4x6 wireless with [focal layout](https://github.com/Keyhabit/Focal-keyboard-layout) and assuming swiss german OS keyboard layout settings.
+zmk firmware config project for charybdis 4x6 wireless based on [focal layout](https://github.com/Keyhabit/Focal-keyboard-layout) and adapted to swiss german OS keyboard layout settings.
 
 Charybdis wireless by bastardkb: [manual](https://docs.bastardkb.com/help/bluetooth.html), [troubleshooting](https://docs.bastardkb.com/help/troubleshooting.html)
 

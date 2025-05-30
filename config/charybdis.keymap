@@ -38,8 +38,8 @@
         NAV {
             bindings = <
 &kp F12  &kp F1        &kp F2          &kp F3          &kp F4           &kp F5    &kp F6  &kp F7    &kp F8    &kp F9    &kp F10  &kp F11
-&trans   &mkp MB4      &mkp MB3        &mkp MB2        &mkp MB1         &trans    &none   &none     &trans    &none     &none    &none
-&trans   &kp UP_ARROW  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans    &none   &mkp MB1  &mkp MB2  &mkp MB3  &none    &trans
+&trans   &kp UP_ARROW  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans    &none   &none     &trans    &none     &none    &none
+&trans   &mkp MB4      &mkp MB3        &mkp MB2        &mkp MB1         &mo 4     &none   &mkp MB1  &mkp MB2  &mkp MB3  &none    &trans
 &trans   &kp PAGE_UP   &kp HOME        &kp PAGE_DOWN   &kp END          &none     &none   &none     &trans    &mo 4     &mo 4    &trans
                                        &trans          &trans           &trans    &trans  &trans
                                                        &trans           &trans    &trans
@@ -50,7 +50,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans    &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans    &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &mo 4     &mo 4   &trans
                         &trans  &trans  &trans    &trans  &trans
                                 &trans  &trans    &trans
@@ -61,7 +61,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans    &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans    &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans    &trans  &trans
                         &trans  &trans  &trans    &trans  &trans
                                 &trans  &trans    &trans
