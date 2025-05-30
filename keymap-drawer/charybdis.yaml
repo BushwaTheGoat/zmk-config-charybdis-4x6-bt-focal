@@ -85,8 +85,8 @@ layers:
   - {t: ▽, type: trans}
   - Sft+ *
   - Sft+ ç
-  - Sft+ )
-  - Sft+ =
+  - Sft+ (
+  - )
   - {t: ▽, type: trans}
   - (
   - '4'
@@ -197,10 +197,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - UP ARROW
-  - LEFT
-  - DOWN ARROW
-  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
@@ -254,10 +254,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - UP ARROW
-  - LEFT
-  - DOWN ARROW
-  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
