@@ -43,11 +43,11 @@ layers:
   - M
   - D
   - {t: P, h: Bluetooth}
-  - KP MINUS
+  - '-'
   - W
   - .
   - ','
-  - Sft+ _
+  - Sft+ -
   - Mouse-Snipe
   - LEFT ALT
   - LEFT SHIFT
