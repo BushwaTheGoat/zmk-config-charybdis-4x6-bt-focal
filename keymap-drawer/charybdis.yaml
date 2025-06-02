@@ -24,7 +24,7 @@ layers:
   - {t: O, h: ö}
   - {t: U, h: ü}
   - J
-  - /
+  - '-'
   - TAB
   - S
   - R
@@ -43,11 +43,11 @@ layers:
   - M
   - D
   - {t: P, h: Bluetooth}
-  - '-'
+  - ''''
   - W
   - .
   - ','
-  - Sft+ -
+  - Sft+ '
   - Mouse-Snipe
   - LEFT ALT
   - LEFT SHIFT
@@ -190,11 +190,11 @@ layers:
   - '['
   - ']'
   - Sft+ |
-  - /
+  - '-'
   - '7'
   - '8'
   - '9'
-  - '-'
+  - ''''
   - Sft+ ?
   - {t: ▽, type: trans}
   - Sft+ *
