@@ -68,7 +68,7 @@
             >;
         };
 
-        Mouse-Snip {
+        Mouse-Snipe {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
