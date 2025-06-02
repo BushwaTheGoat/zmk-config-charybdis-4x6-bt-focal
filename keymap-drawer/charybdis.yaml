@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: charybdis}
 layers:
-  MAIN:
+  Letter-Base:
   - ESC
   - '1'
   - '2'
@@ -36,28 +36,28 @@ layers:
   - {t: A, h: ä}
   - E
   - I
-  - SYM
+  - Letter-Symbol
   - LCTRL
   - Z
   - X
   - M
   - D
-  - {t: P, h: BT}
+  - {t: P, h: Bluetooth}
   - KP MINUS
   - W
   - .
   - ','
   - Sft+ _
-  - SNIP
+  - Mouse-Snip
   - LEFT ALT
   - LEFT SHIFT
-  - NAV
+  - Mouse-Auto
   - ENTER
   - SPACE
   - SPACE
   - BACK SPACE
   - DEL
-  SYM:
+  Letter-Symbol:
   - {t: ▽, type: trans}
   - Sft+ "
   - Sft+ "
@@ -114,7 +114,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  NAV:
+  Mouse-Auto:
   - DEV TOOLS
   - F1
   - F2
@@ -134,8 +134,8 @@ layers:
   - RIGHT
   - {t: ▽, type: trans}
   - ''
-  - ''
-  - {t: ▽, type: trans}
+  - Ctl+ PG UP
+  - Ctl+ PG DN
   - ''
   - ''
   - ''
@@ -144,7 +144,7 @@ layers:
   - '&mkp MB3'
   - '&mkp MB2'
   - '&mkp MB1'
-  - SCROLL
+  - Mouse-Scroll
   - ''
   - '&mkp MB1'
   - '&mkp MB2'
@@ -160,8 +160,8 @@ layers:
   - ''
   - ''
   - {t: ▽, type: trans}
-  - SCROLL
-  - SCROLL
+  - Mouse-Scroll
+  - Mouse-Scroll
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -171,7 +171,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  SNIP:
+  Mouse-Snip:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -217,8 +217,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - SCROLL
-  - SCROLL
+  - Mouse-Scroll
+  - Mouse-Scroll
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -228,7 +228,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  SCROLL:
+  Mouse-Scroll:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -238,27 +238,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -285,7 +264,28 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  BT:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Bluetooth:
   - {t: ▽, type: trans}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
