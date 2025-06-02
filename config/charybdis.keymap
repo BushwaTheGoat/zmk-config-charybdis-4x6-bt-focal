@@ -13,7 +13,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        MAIN {
+        Letter-Base {
             bindings = <
 &kp ESC    &kp N1  &kp N2  &kp N3        &kp N4          &kp N5           &kp N6        &kp N7     &kp N8              &kp N9              &kp N0            &kp BACKSPACE
 &kp LGUI   &kp V   &kp L   &kp H         &kp G           &kp K            &kp Q         &kp F      &mt SEMICOLON O     &mt LEFT_BRACKET U  &kp J             &kp SLASH
@@ -24,7 +24,7 @@
             >;
         };
 
-        SYM {
+        Letter-Symbol {
             bindings = <
 &trans  &kp LS(DQT)    &kp LS(DQT)   &kp LS(LT)        &kp LS(GT)    &kp LS(UNDER)    &trans        &trans  &trans  &trans  &trans     &trans
 &trans  &kp LS(EXCL)   &kp LS(AT)    &kp LBKT          &kp RBKT      &kp LS(PIPE)     &kp FSLH      &kp N7  &kp N8  &kp N9  &kp MINUS  &kp LS(UNDER)
@@ -35,40 +35,40 @@
             >;
         };
 
-        NAV {
+        Mouse-Auto {
             bindings = <
-&kp F12  &kp F1        &kp F2          &kp F3          &kp F4           &kp F5    &kp F6  &kp F7    &kp F8    &kp F9    &kp F10  &kp F11
-&trans   &kp UP_ARROW  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans    &none   &none     &trans    &none     &none    &none
-&trans   &mkp MB4      &mkp MB3        &mkp MB2        &mkp MB1         &mo 4     &none   &mkp MB1  &mkp MB2  &mkp MB3  &none    &trans
-&trans   &kp PAGE_UP   &kp HOME        &kp PAGE_DOWN   &kp END          &none     &none   &none     &trans    &mo 4     &mo 4    &trans
+&kp F12  &kp F1        &kp F2          &kp F3          &kp F4           &kp F5    &kp F6  &kp F7         &kp F8         &kp F9    &kp F10  &kp F11
+&trans   &kp UP_ARROW  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans    &none   &kp LC(PG_UP)  &kp LC(PG_DN)  &none     &none    &none
+&trans   &mkp MB4      &mkp MB3        &mkp MB2        &mkp MB1         &mo 4     &none   &mkp MB1       &mkp MB2       &mkp MB3  &none    &trans
+&trans   &kp PAGE_UP   &kp HOME        &kp PAGE_DOWN   &kp END          &none     &none   &none          &trans         &mo 4     &mo 4    &trans
                                        &trans          &trans           &trans    &trans  &trans
                                                        &trans           &trans    &trans
             >;
         };
 
-        SNIP {
+        Mouse-Snip {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &mo 4     &mo 4   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &mo 4   &mo 4   &trans
                         &trans  &trans  &trans    &trans  &trans
                                 &trans  &trans    &trans
             >;
         };
 
-        SCROLL {
+        Mouse-Scroll {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans
                                 &trans  &trans    &trans
             >;
         };
 
-        BT {
+        Bluetooth {
             bindings = <
 &trans  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans      &trans  &trans  &trans  &trans  &trans
 &trans  &trans          &trans        &trans        &trans        &trans          &trans      &trans  &trans  &trans  &trans  &trans
