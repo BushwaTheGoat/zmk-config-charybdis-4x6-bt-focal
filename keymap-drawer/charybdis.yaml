@@ -48,7 +48,7 @@ layers:
   - .
   - ','
   - Sft+ _
-  - Mouse-Snip
+  - Mouse-Snipe
   - LEFT ALT
   - LEFT SHIFT
   - Mouse-Auto
@@ -285,7 +285,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Mouse-Snip:
+  Mouse-Snipe:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

@@ -390,7 +390,7 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em">Mouse-</tspan><tspan x="0" dy="1.2em">Snip</tspan>
+<tspan x="0" dy="-0.6em">Mouse-</tspan><tspan x="0" dy="1.2em">Snipe</tspan>
 </text>
 </g>
 <g transform="translate(196, 252)" class="key keypos-48">
@@ -1638,8 +1638,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 </g>
 </g>
-<g transform="translate(30, 1960)" class="layer-Mouse-Snip">
-<text x="0" y="28" class="label" id="Mouse-Snip">Mouse-Snip:</text>
+<g transform="translate(30, 1960)" class="layer-Mouse-Snipe">
+<text x="0" y="28" class="label" id="Mouse-Snipe">Mouse-Snipe:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 28)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
