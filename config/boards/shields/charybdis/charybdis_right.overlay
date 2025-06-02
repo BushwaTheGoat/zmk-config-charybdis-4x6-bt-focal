@@ -55,9 +55,9 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        scroll-layers = <4>;
-        snipe-layers = <3>;
-        automouse-layer = <2>;
+        snipe-layers = <5>;
+        scroll-layers = <6>;
+        //automouse-layer = <2>; // do not use, as the sensor can recognize movement without touching the trackball
     };
 };
 
