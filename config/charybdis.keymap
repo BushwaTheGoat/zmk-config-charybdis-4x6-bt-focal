@@ -37,12 +37,12 @@
 
         qwerty-Game {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans
-                                &trans  &trans    &trans
+&kp F6   &kp F1     &kp F2  &kp F3  &kp F4     &kp F5       &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB  &kp N1     &kp N2  &kp N3  &kp N4     &kp N5       &trans  &trans  &trans  &trans  &trans  &trans
+&kp Q    &kp LSHFT  &kp A   &kp W   &kp D      &kp E        &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &kp Z      &kp X   &kp S   &kp M      &trans       &trans  &trans  &trans  &trans  &trans  &trans
+                            &trans  &kp SPACE  &kp LSHFT    &trans  &trans
+                                    &trans     &trans       &trans
             >;
         };
 
