@@ -78,8 +78,8 @@ parse_config:
     Y: "Z"
     XXXXXXX: ""
     "NO": ""
-    MINUS: "-"
-    MINS: "-"
+    MINUS: "'"
+    MINS: "'"
     EQUAL: "="
     EQL: "="
     LEFT_BRACKET: "["
@@ -99,8 +99,8 @@ parse_config:
     COMMA: ","
     COMM: ","
     DOT: .
-    SLASH: /
-    SLSH: /
+    SLASH: "-"
+    SLSH: "-"
     TILDE: "~"
     TILD: "~"
     EXCLAIM: "+"
@@ -168,11 +168,11 @@ parse_config:
     RPAR: "="
     EQUAL: "="
     PLUS: +
-    MINUS: "-"
+    MINUS: "'"
     UNDERSCORE: "?"
     UNDER: "?"
-    SLASH: /
-    FSLH: /
+    SLASH: "-"
+    FSLH: "-"
     QUESTION:  "_"
     QMARK:  "_"
     BACKSLASH: \
