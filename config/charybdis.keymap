@@ -75,7 +75,7 @@
 &trans   &kp UP_ARROW  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &mo 5       &none   &kp LC(PG_UP)  &kp LC(PG_DN)  &none     &none    &none
 &trans   &mkp MB3      &mkp MB2        &mo 6           &mkp MB1         &mkp MB4    &none   &mkp MB4       &mkp MB5       &mkp MB3  &none    &trans
 &trans   &kp PAGE_UP   &kp HOME        &kp PAGE_DOWN   &kp END          &mo 5       &none   &none          &trans         &mo 6     &mo 6    &trans
-                                       &trans          &trans           &trans      &trans  &trans
+                                       &trans          &trans           &to 0       &trans  &trans
                                                        &trans           &trans      &trans
             >;
         };
