@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: charybdis}
 layers:
-  Letter-Base:
+  Focal:
   - ESC
   - '1'
   - '2'
@@ -36,7 +36,7 @@ layers:
   - {t: A, h: ä}
   - E
   - I
-  - Letter-Symbol
+  - {t: Symbol, h: Symbol}
   - LCTRL
   - Z
   - X
@@ -51,13 +51,13 @@ layers:
   - Mouse-Snipe
   - LEFT ALT
   - LEFT SHIFT
-  - Mouse-Auto
+  - {t: Mouse-Auto, h: Mouse-Auto}
   - ENTER
   - SPACE
   - SPACE
   - BACK SPACE
   - DEL
-  Letter-GameMod:
+  Focal-Game:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -105,7 +105,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Letter-Base, h: toggle}
+  - {t: Focal, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F2
@@ -162,7 +162,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Letter-Base, h: toggle}
+  - {t: Focal, h: toggle}
   - {t: ▽, type: trans}
   - SPACE
   - LSHFT
@@ -171,7 +171,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Letter-Symbol:
+  Symbol:
   - {t: ▽, type: trans}
   - Sft+ "
   - Sft+ "
@@ -246,7 +246,7 @@ layers:
   - LEFT
   - DOWN ARROW
   - RIGHT
-  - {t: ▽, type: trans}
+  - Mouse-Snipe
   - ''
   - Ctl+ PG UP
   - Ctl+ PG DN
@@ -254,14 +254,14 @@ layers:
   - ''
   - ''
   - {t: ▽, type: trans}
-  - '&mkp MB4'
   - '&mkp MB3'
   - '&mkp MB2'
-  - '&mkp MB1'
   - Mouse-Scroll
-  - ''
   - '&mkp MB1'
-  - '&mkp MB2'
+  - '&mkp MB4'
+  - ''
+  - '&mkp MB4'
+  - '&mkp MB5'
   - '&mkp MB3'
   - ''
   - {t: ▽, type: trans}
@@ -270,7 +270,7 @@ layers:
   - HOME
   - PAGE DOWN
   - END
-  - ''
+  - Mouse-Snipe
   - ''
   - ''
   - {t: ▽, type: trans}
@@ -370,9 +370,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -447,7 +447,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Letter-GameMod, h: toggle}
+  - {t: Focal-Game, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
