@@ -26,3 +26,10 @@ To flash each side of the keyboard, follow the steps below:
 ## Keymaps & Layers
 
 ![keymap images](keymap-drawer/charybdis.svg)
+
+
+## Hardware / Photos
+
+![Front](data/front.jpg?raw=true "Front")
+
+![Back](data/back.jpg?raw=true "Back")
