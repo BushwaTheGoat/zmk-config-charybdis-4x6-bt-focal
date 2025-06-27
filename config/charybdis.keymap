@@ -29,9 +29,9 @@
             bindings = <
 &kp ESC    &kp N1  &kp N2  &kp N3        &kp N4          &kp N5           &kp N6     &kp N7     &kp N8              &kp N9              &kp N0         &kp BACKSPACE
 &kp LGUI   &kp V   &kp L   &kp H         &kp G           &kp K            &kp Q      &kp F      &mt SEMICOLON O     &mt LEFT_BRACKET U  &kp J          &kp SLASH
-&kp TAB    &kp S   &kp R   &kp N         &kp T           &kp B            &kp Z      &kp C      &mt SINGLE_QUOTE A  &kp E               &kp I          &thlt 3 3
+&kp TAB    &kp S   &kp R   &kp N         &kp T           &kp B            &kp Z      &kp C      &mt SINGLE_QUOTE A  &kp E               &kp I          &mo 3
 &kp LCTRL  &kp Y   &kp X   &kp M         &kp D           &lt 7 P          &kp MINUS  &kp W      &kp PERIOD          &kp COMMA           &kp LS(MINUS)  &mo 5
-                           &kp LEFT_ALT  &kp LEFT_SHIFT  &thlt 4 4        &kp ENTER  &kp SPACE
+                           &kp LEFT_ALT  &kp LEFT_SHIFT  &mo 4            &kp ENTER  &kp SPACE
                                          &kp SPACE       &kp BACKSPACE    &kp DEL
             >;
         };
@@ -60,23 +60,23 @@
 
         Symbol {
             bindings = <
-&trans  &kp LS(DQT)    &kp LS(DQT)   &kp LS(LT)        &kp LS(GT)    &kp LS(UNDER)    &trans        &trans  &trans  &trans  &trans     &trans
-&trans  &kp LS(EXCL)   &kp LS(AT)    &kp LBKT          &kp RBKT      &kp LS(PIPE)     &kp FSLH      &kp N7  &kp N8  &kp N9  &kp MINUS  &kp LS(UNDER)
-&trans  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(ASTERISK)  &kp LPAR      &trans           &kp STAR      &kp N4  &kp N5  &kp N6  &kp PLUS   &trans
-&trans  &kp LS(PRCNT)  &trans        &kp LS(LBRC)      &kp LS(RBRC)  &trans           &kp LS(AMPS)  &kp N1  &kp N2  &kp N3  &kp DOT    &kp EQUAL
-                                     &trans            &trans        &trans           &trans        &trans
-                                                       &trans        &trans           &trans
+&trans  &kp LS(RIGHT_BRACKET)  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &none         &none                &trans            &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)     &trans                    &trans     &trans
+&trans  &kp COMMA              &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3  &kp LS(PIPE)         &none             &kp RA(SINGLE_QUOTE)  &kp RA(NON_US_BACKSLASH)  &none                     &kp MINUS  &kp LS(UNDER)
+&trans  &kp PERIOD             &kp NUMBER_4      &kp NUMBER_5      &kp NUMBER_6  &trans               &none             &kp LS(NUMBER_8)      &kp LS(NUMBER_9)          &kp RA(NON_US_BACKSLASH)  &kp PLUS   &to 0
+&trans  &kp NUMBER_0           &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9  &kp LS(AMPERSAND)    &kp LS(NUMBER_2)  &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp LS(NUMBER_7)          &kp DOT    &kp EQUAL
+                                                 &trans            &trans        &trans               &trans            &trans
+                                                                   &trans        &trans               &trans
             >;
         };
 
         Mouse-Auto {
             bindings = <
-&kp F12  &kp F1        &kp F2          &kp F3          &kp F4           &kp F5      &kp F6  &kp F7         &kp F8         &kp F9    &kp F10  &kp F11
-&trans   &kp UP_ARROW  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &mo 5       &none   &kp LC(PG_UP)  &kp LC(PG_DN)  &none     &none    &none
-&trans   &mkp MB3      &mkp MB2        &mo 6           &mkp MB1         &mkp MB4    &none   &mkp MB4       &mkp MB5       &mkp MB3  &none    &trans
-&trans   &kp PAGE_UP   &kp HOME        &kp PAGE_DOWN   &kp END          &mo 5       &none   &none          &trans         &mo 6     &mo 6    &trans
-                                       &trans          &trans           &to 0       &trans  &trans
-                                                       &trans           &trans      &trans
+&kp F12  &kp F1        &kp F2          &kp F3          &kp F4           &kp F5    &kp F6  &kp F7         &kp F8         &kp F9         &kp F10    &kp F11
+&trans   &kp UP_ARROW  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none     &none   &kp LC(PG_UP)  &kp LC(PG_DN)  &kp LS(LC(T))  &kp LC(W)  &none
+&trans   &mkp MB2      &mkp MB3        &mo 6           &mkp MB1         &mo 5     &none   &mkp MB4       &mkp MB5       &mkp MB3       &none      &trans
+&trans   &kp PAGE_UP   &kp HOME        &kp PAGE_DOWN   &kp END          &none     &none   &none          &mkp MB1       &mo 6          &mo 5      &trans
+                                       &trans          &trans           &to 0     &trans  &trans
+                                                       &trans           &trans    &trans
             >;
         };
 
@@ -106,9 +106,9 @@
             bindings = <
 &trans  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans      &trans  &trans  &trans  &trans  &trans
 &trans  &trans          &trans        &trans        &trans        &trans          &trans      &trans  &trans  &trans  &trans  &trans
-&trans  &bt BT_CLR_ALL  &trans        &trans        &trans        &trans          &trans      &trans  &trans  &trans  &trans  &to 2
-&trans  &trans          &trans        &bt BT_CLR    &trans        &trans          &bt BT_NXT  &trans  &trans  &trans  &trans  &to 1
-                                      &trans        &trans        &trans          &trans      &trans
+&trans  &bt BT_CLR_ALL  &trans        &trans        &trans        &trans          &trans      &trans  &trans  &trans  &trans  &to 3
+&trans  &trans          &trans        &bt BT_CLR    &trans        &trans          &bt BT_NXT  &trans  &trans  &trans  &to 2   &to 1
+                                      &trans        &trans        &to 4           &trans      &trans
                                                     &trans        &trans          &trans
             >;
         };
