@@ -36,7 +36,7 @@ layers:
   - {t: A, h: ä}
   - E
   - I
-  - {t: Symbol, h: Symbol}
+  - Symbol
   - LCTRL
   - Z
   - X
@@ -51,7 +51,7 @@ layers:
   - Mouse-Snipe
   - LEFT ALT
   - LEFT SHIFT
-  - {t: Mouse-Auto, h: Mouse-Auto}
+  - Mouse-Auto
   - ENTER
   - SPACE
   - SPACE
@@ -173,51 +173,51 @@ layers:
   - {t: ▽, type: trans}
   Symbol:
   - {t: ▽, type: trans}
-  - Sft+ "
-  - Sft+ "
-  - Sft+ <
-  - Sft+ >
-  - Sft+ ?
+  - Sft+ ]
+  - AGr+ 2
+  - AGr+ 3
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - AGr+ ü
+  - AGr+ ]
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Sft+ +
-  - Sft+ "
-  - '['
-  - ']'
-  - Sft+ |
-  - '-'
-  - '7'
-  - '8'
-  - '9'
-  - ''''
-  - Sft+ ?
-  - {t: ▽, type: trans}
-  - Sft+ *
-  - Sft+ ç
-  - Sft+ (
-  - )
-  - {t: ▽, type: trans}
-  - (
-  - '4'
-  - '5'
-  - '6'
-  - +
-  - {type: held}
-  - {t: ▽, type: trans}
-  - Sft+ %
-  - {t: ▽, type: trans}
-  - Sft+ {
-  - Sft+ !
-  - {t: ▽, type: trans}
-  - Sft+ /
+  - ','
   - '1'
   - '2'
   - '3'
+  - Sft+ |
+  - ''
+  - AGr+ ä
+  - AGr+ \
+  - ''
+  - ''''
+  - Sft+ ?
+  - {t: ▽, type: trans}
+  - .
+  - '4'
+  - '5'
+  - '6'
+  - {t: ▽, type: trans}
+  - ''
+  - Sft+ 8
+  - Sft+ 9
+  - AGr+ \
+  - +
+  - {t: Focal, h: toggle, type: held}
+  - {t: ▽, type: trans}
+  - '0'
+  - '7'
+  - '8'
+  - '9'
+  - Sft+ /
+  - Sft+ 2
+  - \
+  - Sft+ \
+  - Sft+ 7
   - .
   - '='
   - {t: ▽, type: trans}
@@ -246,19 +246,19 @@ layers:
   - LEFT
   - DOWN ARROW
   - RIGHT
-  - Mouse-Snipe
+  - ''
   - ''
   - Ctl+ PG UP
   - Ctl+ PG DN
-  - ''
-  - ''
+  - Sft+Ctl+ T
+  - Ctl+ W
   - ''
   - {t: ▽, type: trans}
-  - '&mkp MB3'
   - '&mkp MB2'
+  - '&mkp MB3'
   - Mouse-Scroll
   - '&mkp MB1'
-  - '&mkp MB4'
+  - Mouse-Snipe
   - ''
   - '&mkp MB4'
   - '&mkp MB5'
@@ -270,12 +270,12 @@ layers:
   - HOME
   - PAGE DOWN
   - END
+  - ''
+  - ''
+  - ''
+  - '&mkp MB1'
+  - Mouse-Scroll
   - Mouse-Snipe
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - Mouse-Scroll
-  - Mouse-Scroll
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -435,7 +435,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: qwerty-Game, h: toggle}
+  - {t: Symbol, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -446,11 +446,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: qwerty-Game, h: toggle}
   - {t: Focal-Game, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: Mouse-Auto, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
