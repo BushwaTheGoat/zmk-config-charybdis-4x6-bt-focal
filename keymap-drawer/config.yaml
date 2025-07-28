@@ -73,8 +73,8 @@ parse_config:
     LBRC: "["
     RIGHT_BRACKET: "]"
     RBRC: "]"
-    BACKSLASH: \
-    BSLS: \
+    BACKSLASH: "$"
+    BSLS: "$"
     NONUS_HASH: "*"
     NUHS: "*"
     SEMICOLON: "ö"
@@ -124,9 +124,9 @@ parse_config:
     LEFT_ANGLE_BRACKET: <
     LABK: <
     LT: <
-    RIGHT_ANGLE_BRACKET: ">"
-    RABK: ">"
-    GT: ">"
+    RIGHT_ANGLE_BRACKET: ":"
+    RABK: ":"
+    GT: ":"
     QUESTION:  "_"
     QUES:  "_"
   zmk_remove_keycode_prefix: []
@@ -154,7 +154,7 @@ parse_config:
     RIGHT_PARENTHESIS: "="
     RPAR: "="
     EQUAL: "^"
-    PLUS: +
+    PLUS: "`"
     MINUS: "'"
     UNDERSCORE: "?"
     UNDER: "?"
@@ -162,12 +162,12 @@ parse_config:
     FSLH: "-"
     QUESTION:  "_"
     QMARK:  "_"
-    BACKSLASH: "<"
-    BSLH: "<"
+    BACKSLASH: "$"
+    BSLH: "$"
     PIPE: "£"
     NON_US_BACKSLASH: "<"
     PIPE2: "£"
-    NON_US_BSLH: "|"
+    NON_US_BSLH: "<"
     SEMICOLON: "ö"
     SEMI: "ö"
     COLON: ":"
@@ -182,8 +182,10 @@ parse_config:
     LT: <
     PERIOD: .
     DOT: .
-    GREATER_THAN: ">"
-    GT: ">"
+    GREATER_THAN: ":"
+    GT: ":"
+    RA(GREATER_THAN): "÷"
+    RA(GT): ":"
     LEFT_BRACKET: "ü"
     LBKT: "["
     LEFT_BRACE: "ü"
@@ -206,8 +208,21 @@ parse_config:
     RA(SINGLE_QUOTE): "{"
     RA(NUMBER_7): "¬"
     RA(NUMBER_6): "|"
+    RA(NON_US_BSLH): "\\"
+    RA(BACKSLASH): "\\"
+    RA(BSLH): "}"
+    LS(BACKSLASH): ">"
+    LS(BSLH): "£"
+    LS(NUMBER_1): "+"
+    LS(NUMBER_2): "\""
+    LS(NUMBER_3): "*"
+    LS(NUMBER_4): "ç"
+    LS(NUMBER_5): "%"
+    LS(NUMBER_6): "&"
+    LS(NUMBER_7): "/"
     LS(NUMBER_8): "("
     LS(NUMBER_9): ")"
+    LS(NUMBER_0): "="
     LS(AMPERSAND): "/"
     LS(AMPS): "/"
     LA(LC(T)): "SHELL"
@@ -247,8 +262,11 @@ parse_config:
     LC(PG_DN): "Tab Right"
     LC(W): "Tab Close"
     LC(LS(PG_DN)): "Tab Restore"
-    BRIGHTNESS INC: "BRIGHT ▲"
-    BRIGHTNESS DEC: "BRIGHT ▼"
+    C_BRIGHTNESS_INC: "BRIGHT ▲"
+    C_BRIGHTNESS_DEC: "BRIGHT ▼"
+    C_VOL_UP: "VOL ▲"
+    C_VOL_DN: "VOL ▼"
+    C_MUTE: "Mute"
   zmk_combos: {}
   zmk_preamble: "#define KEYMAP_DRAWER"
   zmk_additional_includes: []
