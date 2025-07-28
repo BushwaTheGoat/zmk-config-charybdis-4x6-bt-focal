@@ -176,49 +176,49 @@ layers:
   - Sft+ £
   - AGr+ 2
   - AGr+ 3
-  - <
+  - $
   - Sft+ 5
-  - Sft+ 6
+  - '&'
   - '['
   - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - +
   - ','
   - '1'
   - '2'
   - '3'
-  - Sft+ <
+  - '*'
   - AGr+ 7
   - '{'
-  - AGr+ <
-  - ''
+  - '}'
+  - '*'
   - ''''
   - Sft+ ?
-  - {t: ▽, type: trans}
+  - ''''
   - .
   - '4'
   - '5'
   - '6'
-  - Sft+ 3
-  - ''
+  - /
+  - ¬
   - (
   - )
   - AGr+ <
-  - +
+  - '`'
   - {t: Focal, h: toggle, type: held}
   - {t: ▽, type: trans}
   - '0'
   - '7'
   - '8'
   - '9'
-  - /
-  - Sft+ 2
+  - '='
+  - '"'
   - <
   - Sft+ <
-  - Sft+ 7
-  - AGr+ +
+  - /
+  - AGr+ `
   - ^
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -419,8 +419,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BRIGHTNESS DEC
-  - BRIGHTNESS INC
+  - BRIGHT ▼
+  - BRIGHT ▲
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -431,9 +431,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - VOL DN
-  - VOL UP
-  - MUTE
+  - VOL ▼
+  - VOL ▲
+  - Mute
   - {t: ▽, type: trans}
   - {t: Symbol, h: toggle}
   - {t: ▽, type: trans}
