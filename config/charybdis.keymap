@@ -60,10 +60,10 @@
 
         Symbol {
             bindings = <
-&trans  &kp LS(RIGHT_BRACKET)  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &none         &none                &trans            &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)     &trans                    &trans     &trans
-&trans  &kp COMMA              &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3  &kp LS(PIPE)         &none             &kp RA(SINGLE_QUOTE)  &kp RA(NON_US_BACKSLASH)  &none                     &kp MINUS  &kp LS(UNDER)
-&trans  &kp PERIOD             &kp NUMBER_4      &kp NUMBER_5      &kp NUMBER_6  &trans               &none             &kp LS(NUMBER_8)      &kp LS(NUMBER_9)          &kp RA(NON_US_BACKSLASH)  &kp PLUS   &to 0
-&trans  &kp NUMBER_0           &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9  &kp LS(AMPERSAND)    &kp LS(NUMBER_2)  &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp LS(NUMBER_7)          &kp DOT    &kp EQUAL
+&trans  &kp LS(RIGHT_BRACKET)  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp PIPE      &kp LS(N5)           &kp RA(NUMBER_6)  &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)     &trans                    &trans        &trans
+&trans  &kp COMMA              &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3  &kp LS(PIPE)         &kp RA(N7)        &kp RA(SINGLE_QUOTE)  &kp RA(PIPE)              &none                     &kp MINUS     &kp LS(UNDER)
+&trans  &kp PERIOD             &kp NUMBER_4      &kp NUMBER_5      &kp NUMBER_6  &trans               &none             &kp LS(NUMBER_8)      &kp LS(NUMBER_9)          &kp RA(NON_US_BACKSLASH)  &kp PLUS      &to 0
+&trans  &kp NUMBER_0           &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9  &kp LS(AMPERSAND)    &kp LS(NUMBER_2)  &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp LS(NUMBER_7)          &kp RA(PLUS)  &kp EQUAL
                                                  &trans            &trans        &trans               &trans            &trans
                                                                    &trans        &trans               &trans
             >;
@@ -71,11 +71,11 @@
 
         Mouse-Auto {
             bindings = <
-&kp F12  &kp F1        &kp F2          &kp F3          &kp F4           &kp F5    &kp F6  &kp F7         &kp F8         &kp F9         &kp F10    &kp F11
-&trans   &kp UP_ARROW  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none     &none   &kp LC(PG_UP)  &kp LC(PG_DN)  &kp LS(LC(T))  &kp LC(W)  &none
-&trans   &mkp MB2      &mkp MB3        &mo 6           &mkp MB1         &mo 5     &none   &mkp MB4       &mkp MB5       &mkp MB3       &none      &trans
-&trans   &kp PAGE_UP   &kp HOME        &kp PAGE_DOWN   &kp END          &none     &none   &none          &mkp MB1       &mo 6          &mo 5      &trans
-                                       &trans          &trans           &to 0     &trans  &trans
+&kp F12  &kp F1          &kp F2          &kp F3        &kp F4           &kp F5    &kp F6  &kp F7         &kp F8         &kp F9         &kp F10    &kp F11
+&trans   &kp DOWN_ARROW  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none     &none   &kp LC(PG_UP)  &kp LC(PG_DN)  &kp LS(LC(T))  &kp LC(W)  &none
+&trans   &mkp MB2        &mkp MB3        &mo 6         &mkp MB1         &mo 5     &none   &mkp MB4       &mkp MB5       &mkp MB3       &none      &trans
+&trans   &kp PAGE_DOWN   &kp HOME        &kp PG_UP     &kp END          &none     &none   &none          &mkp MB1       &mo 6          &mo 5      &trans
+                                         &trans        &trans           &to 0     &trans  &trans
                                                        &trans           &trans    &trans
             >;
         };
