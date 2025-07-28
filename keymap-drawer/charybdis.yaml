@@ -203,8 +203,8 @@ layers:
   - '6'
   - {t: ▽, type: trans}
   - ''
-  - Sft+ 8
-  - Sft+ 9
+  - (
+  - )
   - AGr+ <
   - +
   - {t: Focal, h: toggle, type: held}
@@ -248,10 +248,10 @@ layers:
   - RIGHT
   - ''
   - ''
-  - Ctl+ PG UP
-  - Ctl+ PG DN
+  - Tab Left
+  - Tab Right
   - Sft+Ctl+ T
-  - Ctl+ W
+  - Tab Close
   - ''
   - {t: ▽, type: trans}
   - '&mkp MB2'
@@ -261,8 +261,8 @@ layers:
   - Mouse-Snipe
   - ''
   - '&mkp MB4'
-  - '&mkp MB5'
-  - '&mkp MB3'
+  - REDO
+  - UNDO
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -271,12 +271,12 @@ layers:
   - PG UP
   - END
   - ''
-  - ''
-  - ''
-  - '&mkp MB1'
-  - Mouse-Scroll
+  - Mark All
+  - COPY
+  - CUT
+  - PASTE
   - Mouse-Snipe
-  - {t: ▽, type: trans}
+  - {t: Focal, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Focal, h: toggle, type: held}
