@@ -176,9 +176,9 @@ layers:
   - Sft+ ]
   - AGr+ 2
   - AGr+ 3
-  - ''
-  - ''
-  - {t: ▽, type: trans}
+  - '|'
+  - Sft+ 5
+  - AGr+ 6
   - AGr+ ü
   - AGr+ ]
   - {t: ▽, type: trans}
@@ -190,9 +190,9 @@ layers:
   - '2'
   - '3'
   - Sft+ |
-  - ''
+  - AGr+ 7
   - AGr+ ä
-  - AGr+ \
+  - AGr+ |
   - ''
   - ''''
   - Sft+ ?
@@ -218,7 +218,7 @@ layers:
   - \
   - Sft+ \
   - Sft+ 7
-  - .
+  - AGr+ +
   - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -242,9 +242,9 @@ layers:
   - F10
   - F11
   - {t: ▽, type: trans}
-  - UP ARROW
-  - LEFT
   - DOWN ARROW
+  - LEFT
+  - UP ARROW
   - RIGHT
   - ''
   - ''
@@ -266,9 +266,9 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - PAGE UP
-  - HOME
   - PAGE DOWN
+  - HOME
+  - PG UP
   - END
   - ''
   - ''
