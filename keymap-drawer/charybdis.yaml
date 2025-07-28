@@ -192,7 +192,7 @@ layers:
   - Sft+ £
   - AGr+ 7
   - '{'
-  - ˘
+  - AGr+ >
   - ''
   - ''''
   - Sft+ ?
@@ -263,7 +263,7 @@ layers:
   - '&mkp MB4'
   - REDO
   - UNDO
-  - ''
+  - PRINT SCREEN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PAGE DOWN
@@ -419,8 +419,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BRIGHTNESS DEC
+  - BRIGHTNESS INC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -431,9 +431,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - VOL DN
+  - VOL UP
+  - MUTE
   - {t: ▽, type: trans}
   - {t: Symbol, h: toggle}
   - {t: ▽, type: trans}
