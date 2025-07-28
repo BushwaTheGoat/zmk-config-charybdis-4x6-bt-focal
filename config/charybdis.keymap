@@ -71,11 +71,11 @@
 
         Mouse-Auto {
             bindings = <
-&kp F12  &kp F1          &kp F2          &kp F3        &kp F4           &kp F5    &kp F6  &kp F7         &kp F8         &kp F9         &kp F10    &kp F11
-&trans   &kp DOWN_ARROW  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none     &none   &kp LC(PG_UP)  &kp LC(PG_DN)  &kp LS(LC(T))  &kp LC(W)  &none
-&trans   &mkp MB2        &mkp MB3        &mo 6         &mkp MB1         &mo 5     &none   &mkp MB4       &mkp MB5       &mkp MB3       &none      &trans
-&trans   &kp PAGE_DOWN   &kp HOME        &kp PG_UP     &kp END          &none     &none   &none          &mkp MB1       &mo 6          &mo 5      &trans
-                                         &trans        &trans           &to 0     &trans  &trans
+&kp F12  &kp F1          &kp F2          &kp F3        &kp F4           &kp F5    &kp F6     &kp F7         &kp F8         &kp F9          &kp F10    &kp F11
+&trans   &kp DOWN_ARROW  &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none     &none      &kp LC(PG_UP)  &kp LC(PG_DN)  &kp LS(LC(T))   &kp LC(W)  &none
+&trans   &mkp MB2        &mkp MB3        &mo 6         &mkp MB1         &mo 5     &none      &mkp MB4       &kp C_AC_REDO  &kp C_AC_UNDO   &none      &trans
+&trans   &kp PAGE_DOWN   &kp HOME        &kp PG_UP     &kp END          &none     &kp LC(A)  &kp C_AC_COPY  &kp C_AC_CUT   &kp C_AC_PASTE  &mo 5      &to 0
+                                         &trans        &trans           &to 0     &trans     &trans
                                                        &trans           &trans    &trans
             >;
         };
