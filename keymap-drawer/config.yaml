@@ -34,7 +34,7 @@ draw_config:
   glyph_shifted_size: 10
   glyphs: {}
 parse_config:
-  preprocess: true
+  preprocess: true{
   skip_binding_parsing: false
   raw_binding_map: {}
   sticky_label: sticky
@@ -204,10 +204,10 @@ parse_config:
     RA(RBKT): "]"
     RA(SQT): "{"
     RA(SINGLE_QUOTE): "{"
-    RA(7): "¬"
-    RA(6): "|"
-    LS(8): "("
-    LS(9): ")"
+    RA(NUMBER_7): "¬"
+    RA(NUMBER_6): "|"
+    LS(NUMBER_8): "("
+    LS(NUMBER_9): ")"
     LS(AMPERSAND): "/"
     LS(AMPS): "/"
     LA(LC(T)): "SHELL"
@@ -241,6 +241,10 @@ parse_config:
     LA(KP_N2): "PENDING"
     LA(KP_N3): "ACCEPT"
     F12: "DEV TOOLS"
+    LC(PG_UP): "Tab Left"
+    LC(PG_DN): "Tab Right"
+    LC(W): "Tab Close"
+    LC(LS(PG_DN)): "Tab Restore"
     BRIGHTNESS INC: "BRIGHT ▲"
     BRIGHTNESS DEC: "BRIGHT ▼"
   zmk_combos: {}
