@@ -34,7 +34,7 @@ draw_config:
   glyph_shifted_size: 10
   glyphs: {}
 parse_config:
-  preprocess: true{
+  preprocess: true
   skip_binding_parsing: false
   raw_binding_map: {}
   sticky_label: sticky
@@ -222,7 +222,9 @@ parse_config:
     LS(LC(L)): "PANE ▶"
     LEFT_ARROW: "LEFT"
     RIGHT_ARROW: "RIGHT"
+    C_AC_REDO: "REDO"
     C_AC_UNDO: "UNDO"
+    LC(A): "Mark All"
     C_AC_CUT: "CUT"
     C_AC_COPY: "COPY"
     C_AC_PASTE: "PASTE"
