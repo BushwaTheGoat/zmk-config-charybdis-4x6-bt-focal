@@ -177,7 +177,7 @@ layers:
   - AGr+ 2
   - AGr+ 3
   - $
-  - Sft+ 5
+  - '%'
   - '&'
   - '['
   - ']'
@@ -242,10 +242,10 @@ layers:
   - F10
   - F11
   - {t: ▽, type: trans}
-  - DOWN ARROW
-  - LEFT
-  - UP ARROW
-  - RIGHT
+  - ▼
+  - ◀
+  - ▲
+  - ▶
   - ''
   - ''
   - Tab Left
@@ -261,9 +261,9 @@ layers:
   - Mouse-Snipe
   - ''
   - '&mkp MB4'
-  - REDO
+  - '&mkp MB5'
   - UNDO
-  - PRINT SCREEN
+  - REDO
   - {t: Focal, h: toggle}
   - {t: ▽, type: trans}
   - PAGE DOWN
@@ -419,8 +419,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BRIGHT ▼
-  - BRIGHT ▲
+  - BRIGHTNESS DEC
+  - BRIGHTNESS INC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -430,7 +430,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PRINT SCREEN
   - VOL ▼
   - VOL ▲
   - Mute
