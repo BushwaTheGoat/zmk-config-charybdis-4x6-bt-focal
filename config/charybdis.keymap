@@ -60,12 +60,12 @@
 
         Symbol {
             bindings = <
-&trans  &kp LS(RIGHT_BRACKET)  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp BSLH      &kp LS(N5)           &kp LS(NUMBER_6)  &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)     &trans                    &trans        &trans
-&trans  &kp COMMA              &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3  &kp LS(BSLH)         &kp RA(N7)        &kp RA(SINGLE_QUOTE)  &kp RA(BSLH)              &none                     &kp MINUS     &kp LS(UNDER)
-&trans  &kp PERIOD             &kp NUMBER_4      &kp NUMBER_5      &kp NUMBER_6  &kp LS(NUMBER_3)     &none             &kp LS(NUMBER_8)      &kp LS(NUMBER_9)          &kp RA(NON_US_BACKSLASH)  &kp PLUS      &to 0
-&trans  &kp NUMBER_0           &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9  &kp LS(AMPERSAND)    &kp LS(NUMBER_2)  &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp LS(NUMBER_7)          &kp RA(PLUS)  &kp EQUAL
-                                                 &trans            &trans        &trans               &trans            &trans
-                                                                   &trans        &trans               &trans
+&trans            &kp LS(RIGHT_BRACKET)  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp BSLH      &kp LS(N5)           &kp LS(NUMBER_6)  &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)     &trans                    &trans        &trans
+&kp LS(NUMBER_1)  &kp COMMA              &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3  &kp LS(NUMBER_3)     &kp RA(N7)        &kp RA(SINGLE_QUOTE)  &kp RA(BSLH)              &kp LS(NUMBER_3)          &kp MINUS     &kp LS(UNDER)
+&kp MINUS         &kp PERIOD             &kp NUMBER_4      &kp NUMBER_5      &kp NUMBER_6  &kp LS(AMPERSAND)    &kp RA(NUMBER_7)  &kp LS(NUMBER_8)      &kp LS(NUMBER_9)          &kp RA(NON_US_BACKSLASH)  &kp PLUS      &to 0
+&trans            &kp NUMBER_0           &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9  &kp LS(NUMBER_0)     &kp LS(NUMBER_2)  &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp LS(NUMBER_7)          &kp RA(PLUS)  &kp EQUAL
+                                                           &trans            &trans        &trans               &trans            &trans
+                                                                             &trans        &trans               &trans
             >;
         };
 
