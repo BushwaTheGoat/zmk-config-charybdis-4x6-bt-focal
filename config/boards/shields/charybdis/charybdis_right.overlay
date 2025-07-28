@@ -57,7 +57,7 @@
         irq-gpios = <&gpio0 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         snipe-layers = <5>;
         scroll-layers = <6>;
-        //automouse-layer = <2>; // do not use, as the sensor can recognize movement without touching the trackball
+        //automouse-layer = <2>; // do not use with this device, as the sensor recognizes movement without touching the trackball
     };
 };
 
