@@ -26,6 +26,7 @@
             // tweak for Keymap Editor
             compatible = "zmk,behavior-sticky-key";
             label = "SKI";
+            bindings = <&sk>;
             #binding-cells = <1>;
         };
     };
