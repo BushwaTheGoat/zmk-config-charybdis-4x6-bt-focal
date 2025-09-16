@@ -50,11 +50,11 @@
 
         Focal-Game-Sticky {
             bindings = <
-&kp ESC     &ski N1  &ski N2  &ski N3  &ski N4  &ski N5    &ski N6   &ski N7  &ski N8   &ski N9     &ski N0         &kp BACKSPACE
-&ski F1     &ski V   &ski L   &ski H   &ski G   &ski K     &ski Q    &ski F   &ski O    &ski U      &ski J          &ski MINUS
-&ski TAB    &ski S   &ski R   &ski N   &ski T   &ski B     &ski Y    &ski C   &ski A    &ski E      &ski J          &trans
-&ski LCTRL  &ski Y   &ski X   &ski M   &ski D   &ski P     &ski SQT  &ski W   &ski DOT  &ski COMMA  &ski LS(QMARK)  &ski SQT
-                              &trans   &trans   &trans     &trans   &trans
+&kp ESC     &ski N1  &ski N2  &ski N3  &ski N4  &ski N5    &ski N6     &ski N7  &ski N8      &ski N9     &ski N0         &kp BACKSPACE
+&ski F1     &ski V   &ski L   &ski H   &ski G   &ski K     &ski Q      &ski F   &ski O       &ski U      &ski J          &ski SLASH
+&ski TAB    &ski S   &ski R   &ski N   &ski T   &ski B     &ski Z      &ski C   &ski A       &ski E      &ski I          &trans
+&ski LCTRL  &ski Y   &ski X   &ski M   &ski D   &ski P     &ski MINUS  &ski W   &ski PERIOD  &ski COMMA  &ski LS(MINUS)  &ski SQT
+                              &trans   &trans   &trans     &trans      &trans
                                        &trans   &trans     &trans
             >;
         };
