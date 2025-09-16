@@ -11,5 +11,5 @@ include: one_param.yaml
 properties:
   label:
     type: string
-    required: true
+#    required: true
     description: Sticky Key Infinite behavior binding
