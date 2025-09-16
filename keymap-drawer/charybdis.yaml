@@ -36,7 +36,7 @@ layers:
   - {t: A, h: ä}
   - E
   - I
-  - Symbol
+  - {t: Symbol, h: Symbol}
   - LCTRL
   - Z
   - X
@@ -81,7 +81,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Focal-Game-Sticky
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -109,6 +109,63 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F2
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Focal-Game-Sticky:
+  - ESC
+  - {t: '1', h: sticky}
+  - {t: '2', h: sticky}
+  - {t: '3', h: sticky}
+  - {t: '4', h: sticky}
+  - {t: '5', h: sticky}
+  - {t: '6', h: sticky}
+  - {t: '7', h: sticky}
+  - {t: '8', h: sticky}
+  - {t: '9', h: sticky}
+  - {t: '0', h: sticky}
+  - BSPC
+  - {t: F1, h: sticky}
+  - {t: V, h: sticky}
+  - {t: L, h: sticky}
+  - {t: H, h: sticky}
+  - {t: G, h: sticky}
+  - {t: K, h: sticky}
+  - {t: Q, h: sticky}
+  - {t: F, h: sticky}
+  - {t: O, h: sticky}
+  - {t: U, h: sticky}
+  - {t: J, h: sticky}
+  - {t: '''', h: sticky, type: held}
+  - {t: TAB, h: sticky}
+  - {t: S, h: sticky}
+  - {t: R, h: sticky}
+  - {t: N, h: sticky}
+  - {t: T, h: sticky}
+  - {t: B, h: sticky}
+  - {t: Z, h: sticky}
+  - {t: C, h: sticky}
+  - {t: A, h: sticky}
+  - {t: E, h: sticky}
+  - {t: J, h: sticky}
+  - {t: ▽, type: trans}
+  - {t: LCTRL, h: sticky}
+  - {t: Y, h: sticky}
+  - {t: X, h: sticky}
+  - {t: M, h: sticky}
+  - {t: D, h: sticky}
+  - {t: P, h: sticky}
+  - {t: ä, h: sticky}
+  - {t: W, h: sticky}
+  - {t: ., h: sticky}
+  - {t: ',', h: sticky}
+  - {t: Sft+ _, h: sticky}
+  - {t: ä, h: sticky}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -150,7 +207,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Symbol
   - {t: ▽, type: trans}
   - Y
   - X
@@ -333,7 +390,7 @@ layers:
   - {t: ▽, type: trans}
   - Mouse-Scroll
   - Mouse-Scroll
-  - {type: held}
+  - {t: Mouse-Auto, h: toggle, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -390,7 +447,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: Mouse-Auto, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -400,49 +457,49 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Bluetooth:
+  - BT CLR ALL
+  - BT CLR
+  - ''
+  - OUT BLE
+  - OUT USB
+  - OUT TOG
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: BT DISC, h: '0'}
+  - {t: BT DISC, h: '1'}
+  - {t: BT DISC, h: '2'}
+  - {t: BT DISC, h: '3'}
+  - {t: BT DISC, h: '4'}
+  - {t: ▽, type: trans}
+  - BRIGHTNESS DEC
+  - ''
+  - BRI UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BRIGHTNESS DEC
-  - BRIGHTNESS INC
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BT CLR ALL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - PRINT SCREEN
   - VOL ▼
-  - VOL ▲
   - Mute
+  - VOL ▲
   - {t: ▽, type: trans}
   - {t: Symbol, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BT CLR
   - {t: ▽, type: trans}
-  - {type: held}
   - BT NXT
+  - {t: Focal, h: toggle, type: held}
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
