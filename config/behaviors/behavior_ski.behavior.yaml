@@ -1,0 +1,7 @@
+name: ski
+display_name: Sticky Key Infinite
+description: A sticky key behavior that holds a key until another keypress.
+params:
+  - name: keycode
+    type: keycode
+    description: The keycode to send and hold.
