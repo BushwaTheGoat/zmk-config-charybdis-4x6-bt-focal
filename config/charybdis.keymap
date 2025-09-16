@@ -22,7 +22,9 @@
             hold-while-undecided;
         };
         ski: ski_behavior {
-            compatible = "zmk,behavior-ski";
+#            compatible = "zmk,behavior-ski";
+            # tweak for Keymap Editor
+            compatible = "zmk,behavior-sticky-key";
             label = "SKI";
             #binding-cells = <1>;
         };
