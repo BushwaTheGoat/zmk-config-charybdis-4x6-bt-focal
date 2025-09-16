@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: MIT
+description: Sticky Key Infinite behavior binding
+
+compatible: "zmk,behavior-ski"
+
+# Number of parameters this behavior expects (e.g. &kp A → 1 param)
+# Required for device tree parsing
+binding-cells: 1
+
+properties:
+  label:
+    required: true
