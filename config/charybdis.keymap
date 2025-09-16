@@ -20,7 +20,7 @@
             #binding-cells = <2>;
             tapping-term-ms = <400>;
             hold-while-undecided;
-        },
+        };
         ski: ski_behavior {
             compatible = "zmk,behavior-ski";
             label = "SKI";
