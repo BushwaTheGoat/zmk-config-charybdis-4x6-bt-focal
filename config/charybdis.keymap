@@ -24,6 +24,7 @@
         ski: ski_behavior {
             compatible = "zmk,behavior-ski";
             label = "SKI";
+            #binding-cells = <1>;
         };
     };
 
