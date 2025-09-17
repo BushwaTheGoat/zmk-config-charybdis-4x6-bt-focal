@@ -116,53 +116,53 @@ layers:
   - {t: ▽, type: trans}
   Focal-Game-Sticky:
   - ESC
-  - '&ski N1'
-  - '&ski N2'
-  - '&ski N3'
-  - '&ski N4'
-  - '&ski N5'
-  - '&ski N6'
-  - '&ski N7'
-  - '&ski N8'
-  - '&ski N9'
-  - '&ski N0'
+  - {t: '1', h: sticky}
+  - {t: '2', h: sticky}
+  - {t: '3', h: sticky}
+  - {t: '4', h: sticky}
+  - {t: '5', h: sticky}
+  - {t: '6', h: sticky}
+  - {t: '7', h: sticky}
+  - {t: '8', h: sticky}
+  - {t: '9', h: sticky}
+  - {t: '0', h: sticky}
   - BACK SPACE
-  - '&ski F1'
-  - '&ski V'
-  - '&ski L'
-  - '&ski H'
-  - '&ski G'
-  - '&ski K'
-  - '&ski Q'
-  - '&ski F'
-  - '&ski O'
-  - '&ski U'
-  - '&ski J'
-  - {t: '&ski SLASH', type: held}
-  - '&ski TAB'
-  - '&ski S'
-  - '&ski R'
-  - '&ski N'
-  - '&ski T'
-  - '&ski B'
-  - '&ski Z'
-  - '&ski C'
-  - '&ski A'
-  - '&ski E'
-  - '&ski I'
+  - {t: F1, h: sticky}
+  - {t: V, h: sticky}
+  - {t: L, h: sticky}
+  - {t: H, h: sticky}
+  - {t: G, h: sticky}
+  - {t: K, h: sticky}
+  - {t: Q, h: sticky}
+  - {t: F, h: sticky}
+  - {t: O, h: sticky}
+  - {t: U, h: sticky}
+  - {t: J, h: sticky}
+  - {t: '-', h: sticky, type: held}
+  - {t: TAB, h: sticky}
+  - {t: S, h: sticky}
+  - {t: R, h: sticky}
+  - {t: N, h: sticky}
+  - {t: T, h: sticky}
+  - {t: B, h: sticky}
+  - {t: Y, h: sticky}
+  - {t: C, h: sticky}
+  - {t: A, h: sticky}
+  - {t: E, h: sticky}
+  - {t: I, h: sticky}
   - {t: ▽, type: trans}
-  - '&ski LCTRL'
-  - '&ski Y'
-  - '&ski X'
-  - '&ski M'
-  - '&ski D'
-  - '&ski P'
-  - '&ski MINUS'
-  - '&ski W'
-  - '&ski PERIOD'
-  - '&ski COMMA'
-  - '&ski LS(MINUS)'
-  - '&ski SQT'
+  - {t: LCTRL, h: sticky}
+  - {t: Z, h: sticky}
+  - {t: X, h: sticky}
+  - {t: M, h: sticky}
+  - {t: D, h: sticky}
+  - {t: P, h: sticky}
+  - {t: '''', h: sticky}
+  - {t: W, h: sticky}
+  - {t: ., h: sticky}
+  - {t: ',', h: sticky}
+  - {t: Sft+ ', h: sticky}
+  - {t: ä, h: sticky}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
