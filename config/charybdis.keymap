@@ -21,13 +21,16 @@
             tapping-term-ms = <400>;
             hold-while-undecided;
         };
+
         ski: ski_behavior {
             compatible = "zmk,behavior-ski";
 
             // tweak for Keymap Editor
             // zmk,editor-alias = "zmk,behavior-sticky-key"; // does not seem to exist
             // compatible = "zmk,behavior-sticky-key"; // fixes Keymap Editor but breaks usage of behavior-ski
+
             label = "Sticky Key Infinite";
+
             // bindings = <&sk>; // fixes Keymap Editor
             // bindings = <>;
             // release-after-ms = <0>; // required by sticky-key, but ignored by SKI
@@ -44,20 +47,20 @@
 &kp ESC    &kp N1  &kp N2  &kp N3        &kp N4          &kp N5           &kp N6     &kp N7     &kp N8              &kp N9              &kp N0         &kp BACKSPACE
 &kp LGUI   &kp V   &kp L   &kp H         &kp G           &kp K            &kp Q      &kp F      &mt SEMICOLON O     &mt LEFT_BRACKET U  &kp J          &kp SLASH
 &kp TAB    &kp S   &kp R   &kp N         &kp T           &kp B            &kp Z      &kp C      &mt SINGLE_QUOTE A  &kp E               &kp I          &thlt 4 4
-&kp LCTRL  &kp Y   &kp X   &kp M         &kp D           &lt 8 P          &kp MINUS  &kp W      &kp PERIOD          &kp COMMA           &kp LS(MINUS)  &mo 6
-                           &kp LEFT_ALT  &kp LEFT_SHIFT  &mo 5            &kp ENTER  &kp SPACE
+&kt LCTRL  &kp Y   &kp X   &kp M         &kp D           &lt 8 P          &kp MINUS  &kp W      &kp PERIOD          &kp COMMA           &kp LS(MINUS)  &mo 6
+                           &kt LEFT_ALT  &kt LEFT_SHIFT  &mo 5            &kp ENTER  &kp SPACE
                                          &kp SPACE       &kp BACKSPACE    &kp DEL
             >;
         };
 
         Focal-Game {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&kp F1  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &mo 2
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &to 0
-                        &trans  &trans  &kp F2    &trans  &trans
-                                &trans  &trans    &trans
+&trans     &trans  &trans  &trans    &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp F1     &trans  &trans  &trans    &trans     &trans    &trans  &trans  &trans  &trans  &trans  &mo 2
+&trans     &trans  &trans  &trans    &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL  &trans  &trans  &trans    &trans     &trans    &trans  &trans  &trans  &trans  &trans  &to 0
+                           &kp LALT  &kp LSHFT  &kp F2    &trans  &trans
+                                     &trans     &trans    &trans
             >;
         };
 
