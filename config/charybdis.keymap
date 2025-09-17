@@ -27,6 +27,8 @@
             label = "Sticky Key Infinite";
             bindings = <&sk>;
 
+            release-after-ms = <0>; // required by sticky-key, but ignored by SKI
+
             #binding-cells = <1>;
         };
     };
