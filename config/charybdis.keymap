@@ -23,14 +23,14 @@
         };
         ski: ski_behavior {
             compatible = "zmk,behavior-ski";
+
             // tweak for Keymap Editor
             zmk,editor-alias = "zmk,behavior-sticky-key";
-//            compatible = "zmk,behavior-sticky-key";
+            // compatible = "zmk,behavior-sticky-key";
             label = "Sticky Key Infinite";
-//            bindings = <&sk>;
-            bindings = <>;
-
-            release-after-ms = <0>; // required by sticky-key, but ignored by SKI
+            bindings = <&sk>;
+            // bindings = <>;
+            // release-after-ms = <0>; // required by sticky-key, but ignored by SKI
 
             #binding-cells = <1>;
         };
