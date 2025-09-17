@@ -37,7 +37,7 @@ layers:
   - E
   - I
   - {t: Symbol, h: Symbol}
-  - {t: LCTRL, h: toggle}
+  - {t: LCTRL, h: sticky}
   - Z
   - X
   - M
@@ -49,8 +49,8 @@ layers:
   - ','
   - Sft+ '
   - Mouse-Snipe
-  - {t: LEFT ALT, h: toggle}
-  - {t: LEFT SHIFT, h: toggle}
+  - {t: LEFT ALT, h: sticky}
+  - {t: LEFT SHIFT, h: sticky}
   - Mouse-Auto
   - ENTER
   - SPACE
