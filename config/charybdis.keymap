@@ -91,8 +91,8 @@
 &trans            &kp LS(RIGHT_BRACKET)  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp BSLH      &kp LS(N5)           &kp LS(NUMBER_6)  &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)     &trans                    &trans                 &trans
 &kp LS(NUMBER_1)  &kp COMMA              &kp NUMBER_1      &kp NUMBER_2      &kp NUMBER_3  &kp LS(NUMBER_3)     &kp RA(N7)        &kp RA(SINGLE_QUOTE)  &kp RA(BSLH)              &kp LS(NUMBER_3)          &kp MINUS              &kp LS(UNDER)
 &kp SLASH         &kp PERIOD             &kp NUMBER_4      &kp NUMBER_5      &kp NUMBER_6  &kp LS(AMPERSAND)    &kp RA(NUMBER_7)  &kp LS(NUMBER_8)      &kp LS(NUMBER_9)          &kp RA(NON_US_BACKSLASH)  &kp PLUS               &to 0
-&trans            &kp NUMBER_0           &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9  &kp LS(NUMBER_0)     &kp LS(NUMBER_2)  &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp LS(NUMBER_7)          &kp LS(RIGHT_BRACKET)  &kp EQUAL
-                                                           &trans            &trans        &trans               &trans            &trans
+&sk LCTRL         &kp NUMBER_0           &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9  &kp LS(NUMBER_0)     &kp LS(NUMBER_2)  &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &kp LS(NUMBER_7)          &kp LS(RIGHT_BRACKET)  &kp EQUAL
+                                                           &sk LALT          &sk LSHFT     &to 5                &trans            &trans
                                                                              &trans        &trans               &trans
             >;
         };
@@ -132,10 +132,10 @@
 
         Bluetooth {
             bindings = <
-&bt BT_CLR_ALL  &bt BT_CLR     &none          &out OUT_BLE   &out OUT_USB   &out OUT_TOG     &trans           &trans                &trans      &trans        &trans  &none
-&trans          &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &trans           &kp C_BRIGHTNESS_DEC  &none       &kp C_BRI_UP  &trans  &trans
-&trans          &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &kp PRINTSCREEN  &kp C_VOL_DN          &kp C_MUTE  &kp C_VOL_UP  &trans  &to 4
-&trans          &trans         &trans         &trans         &bt BT_NXT     &to 0            &none            &trans                &trans      &trans        &to 3   &to 1
+&bt BT_CLR_ALL  &bt BT_CLR     &none          &out OUT_BLE   &out OUT_USB   &out OUT_TOG     &trans           &trans                &trans            &trans        &trans      &none
+&trans          &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &trans           &kp C_BRIGHTNESS_DEC  &none             &kp C_BRI_UP  &none       &to 3
+&trans          &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &kp PRINTSCREEN  &kp C_VOL_DN          &kp C_MUTE        &kp C_VOL_UP  &none       &to 4
+&trans          &trans         &trans         &trans         &bt BT_NXT     &to 0            &none            &kp C_PREVIOUS        &kp C_PLAY_PAUSE  &kp C_NEXT    &kp C_STOP  &to 1
                                               &trans         &trans         &to 5            &trans           &trans
                                                              &trans         &trans           &trans
             >;
